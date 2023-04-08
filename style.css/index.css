@@ -1,0 +1,570 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar1 {
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    background-color: rgb(52, 40, 40);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar1 .div1 {
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.nav-bar1 .div2 {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bar1 .div2 button {
+    width: 25%;
+    border-radius: 05px;
+}
+
+/*     Second nav-bar */
+.nav-bar2 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 30px;
+    height: 100px;
+    /* margin-top: 30px; */
+
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+.nav-bar2 .div2 {
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.nav-bar2 .div2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.nav-bar2 .div2 a:hover {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 08px;
+    font-weight: bold;
+    /* font-size:50px; */
+    color: black;
+    font-size: 20px;
+
+}
+
+/* /////// Container */
+.main {
+    background-color: rgb(20, 202, 20);
+    padding-top: 100px;
+    text-align: center;
+    height: 430px;
+    color: white;
+}
+
+.main:hover {
+
+    background-color: rgb(13, 151, 13);
+}
+
+.main .div1 {
+    width: 60%;
+}
+
+.main .div1 #btn {
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    border-top: 2px solid yellow;
+    border-left: 2px solid yellow;
+    border-right: 2px solid yellow;
+    border-radius: 5px;
+    border-bottom: 3px solid orangered;
+}
+
+/* /////        Our advantages */
+
+.our-adv {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 2px 2px;
+    margin-bottom: 20px;
+}
+
+.our-adv .sub-div1 {
+    width: 50%;
+    text-align: center;
+}
+
+.our-adv .sub-div2 {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 10px;
+
+}
+
+.our-adv .sub-div2 .divs .image {
+    background-color: rgb(217, 211, 211);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.icons {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+
+}
+
+.our-adv .sub-div2 .divs {
+    text-align: center;
+    font-size: small;
+    width: 17%;
+}
+
+.about {
+    padding: 30px;
+    background-color: lightgray;
+    height: 500px;
+}
+
+.about-us {
+    display: flex;
+}
+
+.about-us .div1 {
+    margin: 25px;
+    width: 46%;
+    font-size: small;
+}
+
+.about-us .div2 {
+    margin: 20px;
+    width: 45%;
+}
+
+.about-us .div2 img {
+    width: 610px;
+    height: 360px;
+}
+
+.about #btn {
+    width: 150px;
+    height: 45px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 6px;
+    border-color: orange;
+    background-color: rgb(251, 167, 11);
+    border-bottom: 3px solid orangered;
+}
+
+/*        Our services */
+
+.services {
+    padding: 40px;
+}
+
+.services .div1 {
+    width: 55%;
+    font-size: large;
+}
+
+.services .div2 {
+    padding: 20px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.services .star {
+    position: relative;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+
+    justify-content: space-between;
+
+}
+
+.services .star .stars {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+
+}
+
+.services .star #star1 {
+
+    position: absolute;
+    top: -20px;
+    left: 137px;
+}
+
+.services .star #star2 {
+    position: absolute;
+    top: -20px;
+    left: 451px;
+}
+
+.services .star #star3 {
+    position: absolute;
+    top: -20px;
+    left: 760px;
+}
+
+.services .star #star4 {
+    position: absolute;
+    top: -20px;
+    left: 1072px;
+}
+
+.services .div2 .divs {
+
+    background-color: rgb(222, 221, 221);
+    /* opacity:0.6; */
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 24%;
+    height: 70%;
+
+}
+
+.services .div2 p {
+    font-size: small;
+    text-align: center;
+}
+
+.services .div2 a {
+    color: rgb(14, 158, 14);
+    font-size: larger;
+    text-decoration-color: rgb(22, 97, 22);
+}
+
+/* /////Portfolio */
+.portfolio {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.portfolio .div1 {
+    width: 50%;
+}
+
+.portfolio .div2 ul {
+    padding-top: 20px;
+    display: flex;
+    list-style-type: none;
+    color: white;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.portfolio .div2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio .div2 a:hover {
+    color: orange;
+}
+
+.portfolio .div3 {
+    margin: 20px 70px 30px 50px;
+    background-color: white;
+    color: black;
+    height: 410px;
+    width: 1200px;
+}
+
+.portfolio .div3 img {
+    height: 400px;
+    width: 1200px;
+}
+
+/* // PROFILE */
+.profile {
+    padding: 30px;
+    height: 440px;
+
+}
+
+.profile .div1 {
+    width: 60%;
+    /* font-size: larger; */
+    font-weight: 600;
+}
+
+.profile .div2 {
+    padding: 20px 50px 20px 50px;
+    margin-left: 140px;
+}
+
+.profile .div2 img {
+    width: 1000px;
+    height: 200px;
+}
+
+/* //// ABOUT US */
+.people-about-us {
+    padding: 20px;
+    background-color: lightgray;
+    height: 550px;
+}
+
+.people-about-us .div1 {
+    width: 60%;
+    font-weight: 600;
+
+}
+
+.people-about-us .div2,
+.div3 {
+    display: flex;
+    padding-top: 30px;
+    margin-right: 50px;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-size: small;
+}
+
+.people-about-us .div2 .left,
+.div3 .left {
+    border-right: 2px solid gray;
+}
+
+.people-about-us .div2 .left,
+.right,
+.people-about-us .div3 .left,
+.right {
+    width: 50%;
+    display: flex;
+
+}
+
+.people-about-us .div2 .left .div-1,
+.people-about-us .div3 .left .div-1 {
+    width: 20%;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.people-about-us .div2 .right .div-1,
+.people-about-us .div3 .right .div-1 {
+    width: 20%;
+    margin-left: 10px;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.people-about-us .div2 .left .div-2,
+.people-about-us .div3 .left .div-2 {
+    width: 70%;
+    margin-left: 20px;
+}
+
+.people-about-us .div2 .right .div-2,
+.people-about-us .div3 .right .div-2 {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.people-about-us .div2 .left .div-1 i,
+.people-about-us .div3 .left .div-1 i {
+    background-color: white;
+    border-radius: 60%;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.people-about-us .div2 .right .div-1 i,
+.people-about-us .div3 .right .div-1 i {
+    background-color: white;
+    border-radius: 60%;
+    width: 80%;
+    height: 90%;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about #btn2 {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    border-radius: 6px;
+    border-color: orange;
+    background-color: rgb(251, 167, 11);
+    border-bottom: 3px solid orangered;
+}
+
+/* ////Our-skill */
+
+.our-skill {
+    padding: 20px;
+    background-color: white;
+    height: 560px;
+}
+
+.our-skill .div1 {
+    width: 60%;
+}
+
+.our-skill .div2 {
+    padding: 10px;
+    margin: 20px;
+
+}
+
+/* ///Project */
+
+.project {
+    padding: 30px;
+    background-color: white;
+    height: 400px;
+    background-color: rgba(14, 171, 11, 0.932);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project .div1 {
+    width: 60%;
+}
+
+.project .div2 {
+    padding: 40px;
+}
+
+.project .div2 #btn {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    border-color: orange;
+    background-color: rgb(251, 167, 11);
+    border-bottom: 3px solid orangered;
+}
+
+.project .div2 input {
+    padding: 10px;
+    height: 45px;
+    width: 220px;
+    font-weight: bold;
+    /* border-radius: 20px solid white;     */
+}
+
+.project .div3 {
+    width: 80%;
+    /* color: black; */
+    color: white;
+    font-size: large;
+}
+
+/* ////Contact Section */
+
+
+.contact {
+    /* margin-top: 20px;   */
+    background-color: white;
+    height: 760px;
+}
+
+.contact .div1 {
+    width: 70%;
+    font-size: larger;
+}
+
+.contact .div3 {
+    width: 60%;
+}
+
+.contact .div3 i {
+    display: inline;
+    width: 10%;
+    font-size: 30px;
+
+}
+
+
+/* ///footer Section */
+
+.footer {
+    padding: 90px 30px 30px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #0eab0bee;
+    height: 500px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.footer .divs li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .div1 {
+    width: 20%;
+}
+
+.footer .divs {
+    width: 20%;
+
+}
+
+.footer .icon {
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.google-map iframe {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 800px;
+    height: 500px;
+}
